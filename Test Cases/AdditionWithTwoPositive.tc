@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AdditionWithTwoPositive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a76d8e3b-d66e-48ab-ab7c-14584f339a3e</testCaseGuid>
+</TestCaseEntity>
