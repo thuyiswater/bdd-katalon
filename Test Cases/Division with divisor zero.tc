@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Division with divisor zero</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ccc90cf0-c5aa-407e-b9d1-fa12faf0ccaf</testCaseGuid>
+</TestCaseEntity>

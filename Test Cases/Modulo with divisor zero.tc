@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Modulo with divisor zero</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5b38c28b-c4d1-4312-b0c2-aae4612c5482</testCaseGuid>
+</TestCaseEntity>
