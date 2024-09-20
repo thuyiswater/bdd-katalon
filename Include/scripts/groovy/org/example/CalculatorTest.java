@@ -366,7 +366,11 @@ public class CalculatorTest {
         assertTrue(output.contains("Support integer only!"));
         assertTrue(output.contains("Exiting the calculator. Goodbye!"));
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> branch 'main' of https://github.com/thuyiswater/bdd-katalon.git
     @Test
     public void gcdTwoPositiveNumbers() {
         String input = "7\n27\n18\n0\n";
