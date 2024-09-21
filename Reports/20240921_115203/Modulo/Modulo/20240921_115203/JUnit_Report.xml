@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Modulo" time="0.346" tests="4" failures="0" errors="0">
+   <testsuite name="Modulo" tests="4" failures="0" errors="0" time="0.346" skipped="0" timestamp="21-09-2024T11:52:07" hostname="maichieuthuy - localhost" id="Test Suites/Modulo/Modulo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/maichieuthuy/Katalon Studio/bdd-katalon/Reports/20240921_115203/Modulo/Modulo/20240921_115203"/>
+         <property name="logFiles" value="/Users/maichieuthuy/Katalon Studio/bdd-katalon/Reports/20240921_115203/Modulo/Modulo/20240921_115203/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="maichieuthuy - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+      </properties>
+      <testcase name="Test Cases/Modulo/Modulo Successfully" time="0.146" classname="Test Cases/Modulo/Modulo Successfully" status="PASSED">
+         <system-out><![CDATA[21-09-2024T11:52:07 - [TEST_CASE][PASSED] - Test Cases/Modulo/Modulo Successfully: Test Cases/Modulo/Modulo Successfully
+
+21-09-2024T11:52:07 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T11:52:07 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T11:52:07 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T11:52:07 - [TEST_STEP][PASSED] - calculatorTest.moduloPass(): null
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - println("Test Passed"): null
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Modulo/Modulo with dividend is character" time="0.047" classname="Test Cases/Modulo/Modulo with dividend is character" status="PASSED">
+         <system-out><![CDATA[21-09-2024T11:52:08 - [TEST_CASE][PASSED] - Test Cases/Modulo/Modulo with dividend is character: Test Cases/Modulo/Modulo with dividend is character
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - calculatorTest.moduloFirstNumChar(): null
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - println("Test Passed"): null
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Modulo/Modulo with divisor is character" time="0.044" classname="Test Cases/Modulo/Modulo with divisor is character" status="PASSED">
+         <system-out><![CDATA[21-09-2024T11:52:08 - [TEST_CASE][PASSED] - Test Cases/Modulo/Modulo with divisor is character: Test Cases/Modulo/Modulo with divisor is character
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - calculatorTest.moduloSecondNumChar(): null
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - println("Test Passed"): null
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Modulo/Modulo with divisor zero" time="0.041" classname="Test Cases/Modulo/Modulo with divisor zero" status="PASSED">
+         <system-out><![CDATA[21-09-2024T11:52:08 - [TEST_CASE][PASSED] - Test Cases/Modulo/Modulo with divisor zero: Test Cases/Modulo/Modulo with divisor zero
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - calculatorTest.moduloWZero(): null
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - println("Test Passed"): null
+
+21-09-2024T11:52:08 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-09-2024T11:52:07 - [TEST_SUITE][PASSED] - Modulo: Test Cases/Modulo/Modulo with divisor zero]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

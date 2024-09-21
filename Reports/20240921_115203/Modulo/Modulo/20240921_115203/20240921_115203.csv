@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Modulo,,,,21-09-2024 11:52:07,21-09-2024 11:52:08,0.346s,PASSED
+,,,,,,,
+Test Cases/Modulo/Modulo Successfully,,,,21-09-2024 11:52:07,21-09-2024 11:52:08,0.146s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 11:52:07,21-09-2024 11:52:07,0.005s,PASSED
+try,,,,21-09-2024 11:52:07,21-09-2024 11:52:08,0.018s,PASSED
+,,,,,,,
+Test Cases/Modulo/Modulo with dividend is character,,,,21-09-2024 11:52:08,21-09-2024 11:52:08,0.047s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 11:52:08,21-09-2024 11:52:08,0.001s,PASSED
+try,,,,21-09-2024 11:52:08,21-09-2024 11:52:08,0.009s,PASSED
+,,,,,,,
+Test Cases/Modulo/Modulo with divisor is character,,,,21-09-2024 11:52:08,21-09-2024 11:52:08,0.044s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 11:52:08,21-09-2024 11:52:08,0.001s,PASSED
+try,,,,21-09-2024 11:52:08,21-09-2024 11:52:08,0.005s,PASSED
+,,,,,,,
+Test Cases/Modulo/Modulo with divisor zero,,,,21-09-2024 11:52:08,21-09-2024 11:52:08,0.041s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 11:52:08,21-09-2024 11:52:08,0.001s,PASSED
+try,,,,21-09-2024 11:52:08,21-09-2024 11:52:08,0.005s,PASSED

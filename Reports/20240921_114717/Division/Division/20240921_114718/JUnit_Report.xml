@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Division" time="0.357" tests="4" failures="0" errors="0">
+   <testsuite name="Division" tests="4" failures="0" errors="0" time="0.357" skipped="0" timestamp="21-09-2024T11:47:23" hostname="maichieuthuy - localhost" id="Test Suites/Division/Division">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/maichieuthuy/Katalon Studio/bdd-katalon/Reports/20240921_114717/Division/Division/20240921_114718"/>
+         <property name="logFiles" value="/Users/maichieuthuy/Katalon Studio/bdd-katalon/Reports/20240921_114717/Division/Division/20240921_114718/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="maichieuthuy - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+      </properties>
+      <testcase name="Test Cases/Division/Division Successfully" time="0.147" classname="Test Cases/Division/Division Successfully" status="PASSED">
+         <system-out><![CDATA[21-09-2024T11:47:23 - [TEST_CASE][PASSED] - Test Cases/Division/Division Successfully: Test Cases/Division/Division Successfully
+
+21-09-2024T11:47:23 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T11:47:23 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T11:47:23 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T11:47:23 - [TEST_STEP][PASSED] - calculatorTest.dividePass(): null
+
+21-09-2024T11:47:23 - [TEST_STEP][PASSED] - println("Test Passed"): null
+
+21-09-2024T11:47:23 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Division/Division with dividend is character" time="0.046" classname="Test Cases/Division/Division with dividend is character" status="PASSED">
+         <system-out><![CDATA[21-09-2024T11:47:23 - [TEST_CASE][PASSED] - Test Cases/Division/Division with dividend is character: Test Cases/Division/Division with dividend is character
+
+21-09-2024T11:47:23 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T11:47:23 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T11:47:23 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T11:47:23 - [TEST_STEP][PASSED] - calculatorTest.divideFirstNumChar(): null
+
+21-09-2024T11:47:23 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T11:47:23 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Division/Division with divisor is character" time="0.046" classname="Test Cases/Division/Division with divisor is character" status="PASSED">
+         <system-out><![CDATA[21-09-2024T11:47:23 - [TEST_CASE][PASSED] - Test Cases/Division/Division with divisor is character: Test Cases/Division/Division with divisor is character
+
+21-09-2024T11:47:23 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T11:47:23 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T11:47:23 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T11:47:23 - [TEST_STEP][PASSED] - calculatorTest.divideSecondNumChar(): null
+
+21-09-2024T11:47:23 - [TEST_STEP][PASSED] - println("Test Passed"): null
+
+21-09-2024T11:47:23 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Division/Division with divisor zero" time="0.039" classname="Test Cases/Division/Division with divisor zero" status="PASSED">
+         <system-out><![CDATA[21-09-2024T11:47:23 - [TEST_CASE][PASSED] - Test Cases/Division/Division with divisor zero: Test Cases/Division/Division with divisor zero
+
+21-09-2024T11:47:24 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T11:47:24 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T11:47:24 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T11:47:24 - [TEST_STEP][PASSED] - calculatorTest.divideWZero(): null
+
+21-09-2024T11:47:24 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T11:47:24 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-09-2024T11:47:23 - [TEST_SUITE][PASSED] - Division: Test Cases/Division/Division with divisor zero]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

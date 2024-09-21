@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Power,,,,21-09-2024 11:59:07,21-09-2024 11:59:07,0.347s,PASSED
+,,,,,,,
+Test Cases/Power/Power with root number is character,,,,21-09-2024 11:59:07,21-09-2024 11:59:07,0.156s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 11:59:07,21-09-2024 11:59:07,0.005s,PASSED
+try,,,,21-09-2024 11:59:07,21-09-2024 11:59:07,0.024s,PASSED
+,,,,,,,
+Test Cases/Power/Power Successfully,,,,21-09-2024 11:59:07,21-09-2024 11:59:07,0.044s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 11:59:07,21-09-2024 11:59:07,0.001s,PASSED
+try,,,,21-09-2024 11:59:07,21-09-2024 11:59:07,0.005s,PASSED
+,,,,,,,
+Test Cases/Power/Power with negative root,,,,21-09-2024 11:59:07,21-09-2024 11:59:07,0.040s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 11:59:07,21-09-2024 11:59:07,0.001s,PASSED
+try,,,,21-09-2024 11:59:07,21-09-2024 11:59:07,0.006s,PASSED
+,,,,,,,
+Test Cases/Power/Power with base number is character,,,,21-09-2024 11:59:07,21-09-2024 11:59:07,0.032s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 11:59:07,21-09-2024 11:59:07,0.001s,PASSED
+try,,,,21-09-2024 11:59:07,21-09-2024 11:59:07,0.004s,PASSED

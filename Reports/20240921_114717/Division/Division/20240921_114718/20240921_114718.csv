@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Division,,,,21-09-2024 11:47:23,21-09-2024 11:47:24,0.357s,PASSED
+,,,,,,,
+Test Cases/Division/Division Successfully,,,,21-09-2024 11:47:23,21-09-2024 11:47:23,0.147s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 11:47:23,21-09-2024 11:47:23,0.004s,PASSED
+try,,,,21-09-2024 11:47:23,21-09-2024 11:47:23,0.018s,PASSED
+,,,,,,,
+Test Cases/Division/Division with dividend is character,,,,21-09-2024 11:47:23,21-09-2024 11:47:23,0.046s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 11:47:23,21-09-2024 11:47:23,0.002s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 11:47:23,21-09-2024 11:47:23,0.001s,PASSED
+try,,,,21-09-2024 11:47:23,21-09-2024 11:47:23,0.004s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 11:47:23,21-09-2024 11:47:23,0.000s,PASSED
+,,,,,,,
+Test Cases/Division/Division with divisor is character,,,,21-09-2024 11:47:23,21-09-2024 11:47:23,0.046s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 11:47:23,21-09-2024 11:47:23,0.002s,PASSED
+try,,,,21-09-2024 11:47:23,21-09-2024 11:47:23,0.005s,PASSED
+,,,,,,,
+Test Cases/Division/Division with divisor zero,,,,21-09-2024 11:47:23,21-09-2024 11:47:24,0.039s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 11:47:24,21-09-2024 11:47:24,0.002s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 11:47:24,21-09-2024 11:47:24,0.001s,PASSED
+try,,,,21-09-2024 11:47:24,21-09-2024 11:47:24,0.002s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 11:47:24,21-09-2024 11:47:24,0.000s,PASSED
