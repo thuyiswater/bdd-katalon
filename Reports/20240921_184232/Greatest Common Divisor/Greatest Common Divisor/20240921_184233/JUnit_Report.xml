@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Greatest Common Divisor" time="0.629" tests="6" failures="0" errors="0">
+   <testsuite name="Greatest Common Divisor" tests="6" failures="0" errors="0" time="0.629" skipped="0" timestamp="21-09-2024T18:42:38" hostname="Trung Le - DESKTOP-FURDURG" id="Test Suites/Greatest Common Divisor/Greatest Common Divisor">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\git\\bdd-katalon\\Reports\\20240921_184232\\Greatest Common Divisor\\Greatest Common Divisor\\20240921_184233"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\git\\bdd-katalon\\Reports\\20240921_184232\\Greatest Common Divisor\\Greatest Common Divisor\\20240921_184233\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Trung Le - DESKTOP-FURDURG"/>
+         <property name="hostAddress" value="192.168.50.56"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+      </properties>
+      <testcase name="Test Cases/Greatest Common Divisor/GCD Invalid Input" time="0.257" classname="Test Cases/Greatest Common Divisor/GCD Invalid Input" status="PASSED">
+         <system-out><![CDATA[21-09-2024T18:42:38 - [TEST_CASE][PASSED] - Test Cases/Greatest Common Divisor/GCD Invalid Input: Test Cases/Greatest Common Divisor/GCD Invalid Input
+
+21-09-2024T18:42:38 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T18:42:38 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T18:42:38 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T18:42:38 - [TEST_STEP][PASSED] - calculatorTest.gcdInvalidInput(): null
+
+21-09-2024T18:42:38 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T18:42:38 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Greatest Common Divisor/GCD One Positive And One Negative Number" time="0.065" classname="Test Cases/Greatest Common Divisor/GCD One Positive And One Negative Number" status="PASSED">
+         <system-out><![CDATA[21-09-2024T18:42:38 - [TEST_CASE][PASSED] - Test Cases/Greatest Common Divisor/GCD One Positive And One Negative Number: Test Cases/Greatest Common Divisor/GCD One Positive And One Negative Number
+
+21-09-2024T18:42:38 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T18:42:38 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T18:42:38 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T18:42:38 - [TEST_STEP][PASSED] - calculatorTest.gcdOnePositiveOneNegativeNumber(): null
+
+21-09-2024T18:42:38 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T18:42:38 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Greatest Common Divisor/GCD Two Negative Numbers" time="0.055" classname="Test Cases/Greatest Common Divisor/GCD Two Negative Numbers" status="PASSED">
+         <system-out><![CDATA[21-09-2024T18:42:38 - [TEST_CASE][PASSED] - Test Cases/Greatest Common Divisor/GCD Two Negative Numbers: Test Cases/Greatest Common Divisor/GCD Two Negative Numbers
+
+21-09-2024T18:42:38 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T18:42:38 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T18:42:38 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - calculatorTest.gcdTwoNegativeNumbers(): null
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Greatest Common Divisor/GCD Two Positive Numbers" time="0.052" classname="Test Cases/Greatest Common Divisor/GCD Two Positive Numbers" status="PASSED">
+         <system-out><![CDATA[21-09-2024T18:42:39 - [TEST_CASE][PASSED] - Test Cases/Greatest Common Divisor/GCD Two Positive Numbers: Test Cases/Greatest Common Divisor/GCD Two Positive Numbers
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - calculatorTest.gcdTwoPositiveNumbers(): null
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Greatest Common Divisor/GCD Two Prime Numbers" time="0.043" classname="Test Cases/Greatest Common Divisor/GCD Two Prime Numbers" status="PASSED">
+         <system-out><![CDATA[21-09-2024T18:42:39 - [TEST_CASE][PASSED] - Test Cases/Greatest Common Divisor/GCD Two Prime Numbers: Test Cases/Greatest Common Divisor/GCD Two Prime Numbers
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - calculatorTest.gcdTwoPrimeNumbers(): null
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Greatest Common Divisor/GCD With One Number Is Zero" time="0.046" classname="Test Cases/Greatest Common Divisor/GCD With One Number Is Zero" status="PASSED">
+         <system-out><![CDATA[21-09-2024T18:42:39 - [TEST_CASE][PASSED] - Test Cases/Greatest Common Divisor/GCD With One Number Is Zero: Test Cases/Greatest Common Divisor/GCD With One Number Is Zero
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - calculatorTest.gcdWithOneNumberIsZero(): null
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T18:42:39 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-09-2024T18:42:38 - [TEST_SUITE][PASSED] - Greatest Common Divisor: Test Cases/Greatest Common Divisor/GCD With One Number Is Zero]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

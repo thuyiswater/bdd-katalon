@@ -140,6 +140,12 @@ public class Calculator {
         if (num1 == 0 || num2 == 0) {
             return Math.max(num1, num2);
         }
+        if (num1 < 0) {
+            num1 *= -1;
+        }
+        if (num2 < 0) {
+            num2 *= -1;
+        }
         while (num2 != 0) {
             int temp = num2;
             num2 = num1 % num2;
@@ -175,11 +181,19 @@ public class Calculator {
             int num2 = scanner.nextInt();
 
             if(num1 == 0 || num2 == 0){
-                System.out.println("\n" + "The Least Common Multiple of " + num1 + " and " + num2 + " is 0");
+                System.out.println("\n" + "The Least Common Multiple (LCM) of " + num1 + " and " + num2 + " is 0");
+            }
+            int abs_num1 = num1;
+            int abs_num2 = num2;
+            if (num1 < 0) {
+                abs_num1 = num1 * -1;
+            }
+            if (num2 < 0) {
+                abs_num2 = num2 * -1;
             }
 
-            int result = (num1 * num2) / gcd_calculation(num1, num2);
-            System.out.println("\n" + "The Greatest Common Divisor (GCD) of " + num1 + " and " + num2 + " is " + result);
+            int result = (abs_num1 * abs_num2) / gcd_calculation(abs_num1, abs_num2);
+            System.out.println("\n" + "The Least Common Multiple (LCM) of " + num1 + " and " + num2 + " is " + result);
         } catch (InputMismatchException e) {
             System.out.println("Support integer only!\n");
             scanner.next();
@@ -196,9 +210,12 @@ public class Calculator {
                 System.out.println("Fibonacci is not defined for negative numbers");
                 return;
             }
+            
             int result = 0;
             if(num1 <= 1){
                 result = num1;
+                System.out.println("\n" + "The Fibonacci of " + num1 + " is " + result);
+                return;
             }
 
             int a = 0, b = 1, c;

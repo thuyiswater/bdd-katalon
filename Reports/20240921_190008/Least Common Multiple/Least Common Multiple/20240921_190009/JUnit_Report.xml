@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Least Common Multiple" time="0.843" tests="6" failures="0" errors="0">
+   <testsuite name="Least Common Multiple" tests="6" failures="0" errors="0" time="0.843" skipped="0" timestamp="21-09-2024T19:00:14" hostname="Trung Le - DESKTOP-FURDURG" id="Test Suites/Least Common Multiple/Least Common Multiple">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\git\\bdd-katalon\\Reports\\20240921_190008\\Least Common Multiple\\Least Common Multiple\\20240921_190009"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\git\\bdd-katalon\\Reports\\20240921_190008\\Least Common Multiple\\Least Common Multiple\\20240921_190009\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Trung Le - DESKTOP-FURDURG"/>
+         <property name="hostAddress" value="192.168.50.56"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+      </properties>
+      <testcase name="Test Cases/Least Common Multiple/LCM Invalid Input" time="0.292" classname="Test Cases/Least Common Multiple/LCM Invalid Input" status="PASSED">
+         <system-out><![CDATA[21-09-2024T19:00:14 - [TEST_CASE][PASSED] - Test Cases/Least Common Multiple/LCM Invalid Input: Test Cases/Least Common Multiple/LCM Invalid Input
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest.lcmInvalidInput(): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Least Common Multiple/LCM One Positive And One Negative Number" time="0.082" classname="Test Cases/Least Common Multiple/LCM One Positive And One Negative Number" status="PASSED">
+         <system-out><![CDATA[21-09-2024T19:00:15 - [TEST_CASE][PASSED] - Test Cases/Least Common Multiple/LCM One Positive And One Negative Number: Test Cases/Least Common Multiple/LCM One Positive And One Negative Number
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest.lcmOnePositiveOneNegativeNumber(): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Least Common Multiple/LCM Two Equal Numbers" time="0.104" classname="Test Cases/Least Common Multiple/LCM Two Equal Numbers" status="PASSED">
+         <system-out><![CDATA[21-09-2024T19:00:15 - [TEST_CASE][PASSED] - Test Cases/Least Common Multiple/LCM Two Equal Numbers: Test Cases/Least Common Multiple/LCM Two Equal Numbers
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest.lcmTwoEqualNumbers(): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Least Common Multiple/LCM Two Negative Numbers" time="0.09" classname="Test Cases/Least Common Multiple/LCM Two Negative Numbers" status="PASSED">
+         <system-out><![CDATA[21-09-2024T19:00:15 - [TEST_CASE][PASSED] - Test Cases/Least Common Multiple/LCM Two Negative Numbers: Test Cases/Least Common Multiple/LCM Two Negative Numbers
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest.lcmTwoNegativeNumbers(): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Least Common Multiple/LCM Two Positive Numbers" time="0.067" classname="Test Cases/Least Common Multiple/LCM Two Positive Numbers" status="PASSED">
+         <system-out><![CDATA[21-09-2024T19:00:15 - [TEST_CASE][PASSED] - Test Cases/Least Common Multiple/LCM Two Positive Numbers: Test Cases/Least Common Multiple/LCM Two Positive Numbers
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest.lcmTwoPositiveNumbers(): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Least Common Multiple/LCM With One Number Is Zero" time="0.077" classname="Test Cases/Least Common Multiple/LCM With One Number Is Zero" status="PASSED">
+         <system-out><![CDATA[21-09-2024T19:00:15 - [TEST_CASE][PASSED] - Test Cases/Least Common Multiple/LCM With One Number Is Zero: Test Cases/Least Common Multiple/LCM With One Number Is Zero
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest.lcmWithOneNumberIsZero(): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T19:00:15 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-09-2024T19:00:14 - [TEST_SUITE][PASSED] - Least Common Multiple: Test Cases/Least Common Multiple/LCM With One Number Is Zero]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
