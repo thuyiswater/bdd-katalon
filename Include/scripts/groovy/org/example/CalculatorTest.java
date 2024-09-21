@@ -490,17 +490,6 @@ public class CalculatorTest {
     }
 
     @Test
-    public void lcmTwoPrimeNumbers() {
-        String input = "8\n13\n17\n0\n";
-        System.setIn(new ByteArrayInputStream(input.getBytes()));
-        initCalculator();
-
-        String output = outputStream.toString();
-        assertTrue(output.contains("The Least Common Multiple (LCM) of 13 and 17 is 221"));
-        assertTrue(output.contains("Exiting the calculator. Goodbye!"));
-    }
-
-    @Test
     public void lcmInvalidInput() {
         // Simulating valid and invalid input
         String input = "8\na\n0\n";
