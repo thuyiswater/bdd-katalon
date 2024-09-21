@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Least Common Multiple,,,,21-09-2024 18:52:49,21-09-2024 18:52:50,0.726s,FAILED
+,,,,,,,
+Test Cases/Least Common Multiple/LCM Invalid Input,,,,21-09-2024 18:52:49,21-09-2024 18:52:49,0.274s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 18:52:49,21-09-2024 18:52:49,0.007s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 18:52:49,21-09-2024 18:52:49,0.002s,PASSED
+try,,,,21-09-2024 18:52:49,21-09-2024 18:52:49,0.018s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 18:52:49,21-09-2024 18:52:49,0.001s,PASSED
+,,,,,,,
+Test Cases/Least Common Multiple/LCM One Positive And One Negative Number,,,,21-09-2024 18:52:49,21-09-2024 18:52:49,0.019s,FAILED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 18:52:49,21-09-2024 18:52:49,0.002s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 18:52:49,21-09-2024 18:52:49,0.000s,PASSED
+try,,,,21-09-2024 18:52:49,21-09-2024 18:52:49,0.004s,FAILED
+,,,,,,,
+Test Cases/Least Common Multiple/LCM Two Equal Numbers,,,,21-09-2024 18:52:49,21-09-2024 18:52:50,0.060s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 18:52:49,21-09-2024 18:52:49,0.002s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 18:52:49,21-09-2024 18:52:49,0.001s,PASSED
+try,,,,21-09-2024 18:52:49,21-09-2024 18:52:49,0.004s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 18:52:50,21-09-2024 18:52:50,0.000s,PASSED
+,,,,,,,
+Test Cases/Least Common Multiple/LCM Two Negative Numbers,,,,21-09-2024 18:52:50,21-09-2024 18:52:50,0.050s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 18:52:50,21-09-2024 18:52:50,0.001s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 18:52:50,21-09-2024 18:52:50,0.001s,PASSED
+try,,,,21-09-2024 18:52:50,21-09-2024 18:52:50,0.002s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 18:52:50,21-09-2024 18:52:50,0.000s,PASSED
+,,,,,,,
+Test Cases/Least Common Multiple/LCM Two Positive Numbers,,,,21-09-2024 18:52:50,21-09-2024 18:52:50,0.040s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 18:52:50,21-09-2024 18:52:50,0.001s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 18:52:50,21-09-2024 18:52:50,0.002s,PASSED
+try,,,,21-09-2024 18:52:50,21-09-2024 18:52:50,0.003s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 18:52:50,21-09-2024 18:52:50,0.001s,PASSED
+,,,,,,,
+Test Cases/Least Common Multiple/LCM With One Number Is Zero,,,,21-09-2024 18:52:50,21-09-2024 18:52:50,0.045s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 18:52:50,21-09-2024 18:52:50,0.001s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 18:52:50,21-09-2024 18:52:50,0.000s,PASSED
+try,,,,21-09-2024 18:52:50,21-09-2024 18:52:50,0.004s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 18:52:50,21-09-2024 18:52:50,0.001s,PASSED

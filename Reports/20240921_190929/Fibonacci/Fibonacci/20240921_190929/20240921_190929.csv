@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Fibonacci,,,,21-09-2024 19:09:35,21-09-2024 19:09:36,0.721s,PASSED
+,,,,,,,
+Test Cases/Fibonacci/Fibonacci Invalid Input,,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.321s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.014s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.005s,PASSED
+try,,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.030s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.001s,PASSED
+,,,,,,,
+Test Cases/Fibonacci/Fibonacci Negative Number,,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.081s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.002s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.002s,PASSED
+try,,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.010s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.002s,PASSED
+,,,,,,,
+Test Cases/Fibonacci/Fibonacci Of One,,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.072s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.002s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.002s,PASSED
+try,,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.010s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.001s,PASSED
+,,,,,,,
+Test Cases/Fibonacci/Fibonacci Of Zero,,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.062s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.003s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.002s,PASSED
+try,,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.007s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.001s,PASSED
+,,,,,,,
+Test Cases/Fibonacci/Fibonacci Positive Number,,,,21-09-2024 19:09:35,21-09-2024 19:09:36,0.067s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.003s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 19:09:35,21-09-2024 19:09:35,0.001s,PASSED
+try,,,,21-09-2024 19:09:35,21-09-2024 19:09:36,0.005s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 19:09:36,21-09-2024 19:09:36,0.001s,PASSED

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Fibonacci" time="0.721" tests="5" failures="0" errors="0">
+   <testsuite name="Fibonacci" tests="5" failures="0" errors="0" time="0.721" skipped="0" timestamp="21-09-2024T19:09:35" hostname="Trung Le - DESKTOP-FURDURG" id="Test Suites/Fibonacci/Fibonacci">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\git\\bdd-katalon\\Reports\\20240921_190929\\Fibonacci\\Fibonacci\\20240921_190929"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\git\\bdd-katalon\\Reports\\20240921_190929\\Fibonacci\\Fibonacci\\20240921_190929\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Trung Le - DESKTOP-FURDURG"/>
+         <property name="hostAddress" value="192.168.50.56"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+      </properties>
+      <testcase name="Test Cases/Fibonacci/Fibonacci Invalid Input" time="0.321" classname="Test Cases/Fibonacci/Fibonacci Invalid Input" status="PASSED">
+         <system-out><![CDATA[21-09-2024T19:09:35 - [TEST_CASE][PASSED] - Test Cases/Fibonacci/Fibonacci Invalid Input: Test Cases/Fibonacci/Fibonacci Invalid Input
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest.fibonacciInvalidInput(): null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fibonacci/Fibonacci Negative Number" time="0.081" classname="Test Cases/Fibonacci/Fibonacci Negative Number" status="PASSED">
+         <system-out><![CDATA[21-09-2024T19:09:35 - [TEST_CASE][PASSED] - Test Cases/Fibonacci/Fibonacci Negative Number: Test Cases/Fibonacci/Fibonacci Negative Number
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest.fibonacciNegativeNumber(): null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fibonacci/Fibonacci Of One" time="0.072" classname="Test Cases/Fibonacci/Fibonacci Of One" status="PASSED">
+         <system-out><![CDATA[21-09-2024T19:09:35 - [TEST_CASE][PASSED] - Test Cases/Fibonacci/Fibonacci Of One: Test Cases/Fibonacci/Fibonacci Of One
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest.fibonacciOfOne(): null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fibonacci/Fibonacci Of Zero" time="0.062" classname="Test Cases/Fibonacci/Fibonacci Of Zero" status="PASSED">
+         <system-out><![CDATA[21-09-2024T19:09:35 - [TEST_CASE][PASSED] - Test Cases/Fibonacci/Fibonacci Of Zero: Test Cases/Fibonacci/Fibonacci Of Zero
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest.fibonacciOfZero(): null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fibonacci/Fibonacci Positive Number" time="0.067" classname="Test Cases/Fibonacci/Fibonacci Positive Number" status="PASSED">
+         <system-out><![CDATA[21-09-2024T19:09:35 - [TEST_CASE][PASSED] - Test Cases/Fibonacci/Fibonacci Positive Number: Test Cases/Fibonacci/Fibonacci Positive Number
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T19:09:35 - [TEST_STEP][PASSED] - calculatorTest.fibonacciPositiveNumber(): null
+
+21-09-2024T19:09:36 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T19:09:36 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-09-2024T19:09:35 - [TEST_SUITE][PASSED] - Fibonacci: Test Cases/Fibonacci/Fibonacci Positive Number]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

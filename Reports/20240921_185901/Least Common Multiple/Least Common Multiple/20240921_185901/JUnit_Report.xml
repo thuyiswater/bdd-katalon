@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Least Common Multiple" time="0.939" tests="6" failures="0" errors="6">
+   <testsuite name="Least Common Multiple" tests="6" failures="0" errors="6" time="0.939" skipped="0" timestamp="21-09-2024T18:59:06" hostname="Trung Le - DESKTOP-FURDURG" id="Test Suites/Least Common Multiple/Least Common Multiple">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\git\\bdd-katalon\\Reports\\20240921_185901\\Least Common Multiple\\Least Common Multiple\\20240921_185901"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\git\\bdd-katalon\\Reports\\20240921_185901\\Least Common Multiple\\Least Common Multiple\\20240921_185901\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Trung Le - DESKTOP-FURDURG"/>
+         <property name="hostAddress" value="192.168.50.56"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+      </properties>
+      <testcase name="Test Cases/Least Common Multiple/LCM Invalid Input" time="0.018" classname="Test Cases/Least Common Multiple/LCM Invalid Input" status="ERROR">
+         <error type="ERROR" message="Test Cases/Least Common Multiple/LCM Invalid Input FAILED.&#xa;Reason:&#xa;java.lang.Error: Unresolved compilation problems: &#xa;	The local variable abs_num1 may not have been initialized&#xa;	The local variable abs_num2 may not have been initialized&#xa;	The local variable abs_num1 may not have been initialized&#xa;	The local variable abs_num2 may not have been initialized&#xa;&#xa;	at org.example.Calculator.lcm(Calculator.java:194)&#xa;	at org.example.Calculator.run(Calculator.java:253)&#xa;	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)&#xa;	at org.example.CalculatorTest.lcmInvalidInput(CalculatorTest.java:497)&#xa;	at LCM Invalid Input.run(LCM Invalid Input:30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[21-09-2024T18:59:06 - [TEST_CASE][ERROR] - Test Cases/Least Common Multiple/LCM Invalid Input: Test Cases/Least Common Multiple/LCM Invalid Input FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmInvalidInput(CalculatorTest.java:497)
+	at LCM Invalid Input.run(LCM Invalid Input:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T18:59:06 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T18:59:06 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T18:59:06 - [TEST_STEP][ERROR] - try: Test Cases/Least Common Multiple/LCM Invalid Input FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmInvalidInput(CalculatorTest.java:497)
+	at LCM Invalid Input.run(LCM Invalid Input:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T18:59:06 - [TEST_STEP][ERROR] - calculatorTest.lcmInvalidInput(): Test Cases/Least Common Multiple/LCM Invalid Input FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmInvalidInput(CalculatorTest.java:497)
+	at LCM Invalid Input.run(LCM Invalid Input:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T18:59:06 - [MESSAGE][ERROR] - Test Cases/Least Common Multiple/LCM Invalid Input FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmInvalidInput(CalculatorTest.java:497)
+	at LCM Invalid Input.run(LCM Invalid Input:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[21-09-2024T18:59:06 - [TEST_CASE][ERROR] - Test Cases/Least Common Multiple/LCM Invalid Input: Test Cases/Least Common Multiple/LCM Invalid Input FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmInvalidInput(CalculatorTest.java:497)
+	at LCM Invalid Input.run(LCM Invalid Input:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Least Common Multiple/LCM One Positive And One Negative Number" time="0.013" classname="Test Cases/Least Common Multiple/LCM One Positive And One Negative Number" status="ERROR">
+         <error type="ERROR" message="Test Cases/Least Common Multiple/LCM One Positive And One Negative Number FAILED.&#xa;Reason:&#xa;java.lang.Error: Unresolved compilation problems: &#xa;	The local variable abs_num1 may not have been initialized&#xa;	The local variable abs_num2 may not have been initialized&#xa;	The local variable abs_num1 may not have been initialized&#xa;	The local variable abs_num2 may not have been initialized&#xa;&#xa;	at org.example.Calculator.lcm(Calculator.java:194)&#xa;	at org.example.Calculator.run(Calculator.java:253)&#xa;	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)&#xa;	at org.example.CalculatorTest.lcmOnePositiveOneNegativeNumber(CalculatorTest.java:452)&#xa;	at LCM One Positive And One Negative Number.run(LCM One Positive And One Negative Number:30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[21-09-2024T18:59:06 - [TEST_CASE][ERROR] - Test Cases/Least Common Multiple/LCM One Positive And One Negative Number: Test Cases/Least Common Multiple/LCM One Positive And One Negative Number FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmOnePositiveOneNegativeNumber(CalculatorTest.java:452)
+	at LCM One Positive And One Negative Number.run(LCM One Positive And One Negative Number:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T18:59:06 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T18:59:06 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T18:59:06 - [TEST_STEP][ERROR] - try: Test Cases/Least Common Multiple/LCM One Positive And One Negative Number FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmOnePositiveOneNegativeNumber(CalculatorTest.java:452)
+	at LCM One Positive And One Negative Number.run(LCM One Positive And One Negative Number:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T18:59:06 - [TEST_STEP][ERROR] - calculatorTest.lcmOnePositiveOneNegativeNumber(): Test Cases/Least Common Multiple/LCM One Positive And One Negative Number FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmOnePositiveOneNegativeNumber(CalculatorTest.java:452)
+	at LCM One Positive And One Negative Number.run(LCM One Positive And One Negative Number:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T18:59:06 - [MESSAGE][ERROR] - Test Cases/Least Common Multiple/LCM One Positive And One Negative Number FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmOnePositiveOneNegativeNumber(CalculatorTest.java:452)
+	at LCM One Positive And One Negative Number.run(LCM One Positive And One Negative Number:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[21-09-2024T18:59:06 - [TEST_CASE][ERROR] - Test Cases/Least Common Multiple/LCM One Positive And One Negative Number: Test Cases/Least Common Multiple/LCM One Positive And One Negative Number FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmOnePositiveOneNegativeNumber(CalculatorTest.java:452)
+	at LCM One Positive And One Negative Number.run(LCM One Positive And One Negative Number:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Least Common Multiple/LCM Two Equal Numbers" time="0.013" classname="Test Cases/Least Common Multiple/LCM Two Equal Numbers" status="ERROR">
+         <error type="ERROR" message="Test Cases/Least Common Multiple/LCM Two Equal Numbers FAILED.&#xa;Reason:&#xa;java.lang.Error: Unresolved compilation problems: &#xa;	The local variable abs_num1 may not have been initialized&#xa;	The local variable abs_num2 may not have been initialized&#xa;	The local variable abs_num1 may not have been initialized&#xa;	The local variable abs_num2 may not have been initialized&#xa;&#xa;	at org.example.Calculator.lcm(Calculator.java:194)&#xa;	at org.example.Calculator.run(Calculator.java:253)&#xa;	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)&#xa;	at org.example.CalculatorTest.lcmTwoEqualNumbers(CalculatorTest.java:485)&#xa;	at LCM Two Equal Numbers.run(LCM Two Equal Numbers:30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[21-09-2024T18:59:06 - [TEST_CASE][ERROR] - Test Cases/Least Common Multiple/LCM Two Equal Numbers: Test Cases/Least Common Multiple/LCM Two Equal Numbers FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmTwoEqualNumbers(CalculatorTest.java:485)
+	at LCM Two Equal Numbers.run(LCM Two Equal Numbers:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T18:59:06 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T18:59:06 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T18:59:06 - [TEST_STEP][ERROR] - try: Test Cases/Least Common Multiple/LCM Two Equal Numbers FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmTwoEqualNumbers(CalculatorTest.java:485)
+	at LCM Two Equal Numbers.run(LCM Two Equal Numbers:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T18:59:06 - [TEST_STEP][ERROR] - calculatorTest.lcmTwoEqualNumbers(): Test Cases/Least Common Multiple/LCM Two Equal Numbers FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmTwoEqualNumbers(CalculatorTest.java:485)
+	at LCM Two Equal Numbers.run(LCM Two Equal Numbers:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T18:59:06 - [MESSAGE][ERROR] - Test Cases/Least Common Multiple/LCM Two Equal Numbers FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmTwoEqualNumbers(CalculatorTest.java:485)
+	at LCM Two Equal Numbers.run(LCM Two Equal Numbers:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[21-09-2024T18:59:06 - [TEST_CASE][ERROR] - Test Cases/Least Common Multiple/LCM Two Equal Numbers: Test Cases/Least Common Multiple/LCM Two Equal Numbers FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmTwoEqualNumbers(CalculatorTest.java:485)
+	at LCM Two Equal Numbers.run(LCM Two Equal Numbers:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Least Common Multiple/LCM Two Negative Numbers" time="0.011" classname="Test Cases/Least Common Multiple/LCM Two Negative Numbers" status="ERROR">
+         <error type="ERROR" message="Test Cases/Least Common Multiple/LCM Two Negative Numbers FAILED.&#xa;Reason:&#xa;java.lang.Error: Unresolved compilation problems: &#xa;	The local variable abs_num1 may not have been initialized&#xa;	The local variable abs_num2 may not have been initialized&#xa;	The local variable abs_num1 may not have been initialized&#xa;	The local variable abs_num2 may not have been initialized&#xa;&#xa;	at org.example.Calculator.lcm(Calculator.java:194)&#xa;	at org.example.Calculator.run(Calculator.java:253)&#xa;	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)&#xa;	at org.example.CalculatorTest.lcmTwoNegativeNumbers(CalculatorTest.java:463)&#xa;	at LCM Two Negative Numbers.run(LCM Two Negative Numbers:30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[21-09-2024T18:59:07 - [TEST_CASE][ERROR] - Test Cases/Least Common Multiple/LCM Two Negative Numbers: Test Cases/Least Common Multiple/LCM Two Negative Numbers FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmTwoNegativeNumbers(CalculatorTest.java:463)
+	at LCM Two Negative Numbers.run(LCM Two Negative Numbers:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T18:59:07 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T18:59:07 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T18:59:07 - [TEST_STEP][ERROR] - try: Test Cases/Least Common Multiple/LCM Two Negative Numbers FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmTwoNegativeNumbers(CalculatorTest.java:463)
+	at LCM Two Negative Numbers.run(LCM Two Negative Numbers:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T18:59:07 - [TEST_STEP][ERROR] - calculatorTest.lcmTwoNegativeNumbers(): Test Cases/Least Common Multiple/LCM Two Negative Numbers FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmTwoNegativeNumbers(CalculatorTest.java:463)
+	at LCM Two Negative Numbers.run(LCM Two Negative Numbers:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T18:59:07 - [MESSAGE][ERROR] - Test Cases/Least Common Multiple/LCM Two Negative Numbers FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmTwoNegativeNumbers(CalculatorTest.java:463)
+	at LCM Two Negative Numbers.run(LCM Two Negative Numbers:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[21-09-2024T18:59:07 - [TEST_CASE][ERROR] - Test Cases/Least Common Multiple/LCM Two Negative Numbers: Test Cases/Least Common Multiple/LCM Two Negative Numbers FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmTwoNegativeNumbers(CalculatorTest.java:463)
+	at LCM Two Negative Numbers.run(LCM Two Negative Numbers:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Least Common Multiple/LCM Two Positive Numbers" time="0.01" classname="Test Cases/Least Common Multiple/LCM Two Positive Numbers" status="ERROR">
+         <error type="ERROR" message="Test Cases/Least Common Multiple/LCM Two Positive Numbers FAILED.&#xa;Reason:&#xa;java.lang.Error: Unresolved compilation problems: &#xa;	The local variable abs_num1 may not have been initialized&#xa;	The local variable abs_num2 may not have been initialized&#xa;	The local variable abs_num1 may not have been initialized&#xa;	The local variable abs_num2 may not have been initialized&#xa;&#xa;	at org.example.Calculator.lcm(Calculator.java:194)&#xa;	at org.example.Calculator.run(Calculator.java:253)&#xa;	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)&#xa;	at org.example.CalculatorTest.lcmTwoPositiveNumbers(CalculatorTest.java:441)&#xa;	at LCM Two Positive Numbers.run(LCM Two Positive Numbers:30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[21-09-2024T18:59:07 - [TEST_CASE][ERROR] - Test Cases/Least Common Multiple/LCM Two Positive Numbers: Test Cases/Least Common Multiple/LCM Two Positive Numbers FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmTwoPositiveNumbers(CalculatorTest.java:441)
+	at LCM Two Positive Numbers.run(LCM Two Positive Numbers:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T18:59:07 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T18:59:07 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T18:59:07 - [TEST_STEP][ERROR] - try: Test Cases/Least Common Multiple/LCM Two Positive Numbers FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmTwoPositiveNumbers(CalculatorTest.java:441)
+	at LCM Two Positive Numbers.run(LCM Two Positive Numbers:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T18:59:07 - [TEST_STEP][ERROR] - calculatorTest.lcmTwoPositiveNumbers(): Test Cases/Least Common Multiple/LCM Two Positive Numbers FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmTwoPositiveNumbers(CalculatorTest.java:441)
+	at LCM Two Positive Numbers.run(LCM Two Positive Numbers:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T18:59:07 - [MESSAGE][ERROR] - Test Cases/Least Common Multiple/LCM Two Positive Numbers FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmTwoPositiveNumbers(CalculatorTest.java:441)
+	at LCM Two Positive Numbers.run(LCM Two Positive Numbers:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[21-09-2024T18:59:07 - [TEST_CASE][ERROR] - Test Cases/Least Common Multiple/LCM Two Positive Numbers: Test Cases/Least Common Multiple/LCM Two Positive Numbers FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmTwoPositiveNumbers(CalculatorTest.java:441)
+	at LCM Two Positive Numbers.run(LCM Two Positive Numbers:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Least Common Multiple/LCM With One Number Is Zero" time="0.01" classname="Test Cases/Least Common Multiple/LCM With One Number Is Zero" status="ERROR">
+         <error type="ERROR" message="Test Cases/Least Common Multiple/LCM With One Number Is Zero FAILED.&#xa;Reason:&#xa;java.lang.Error: Unresolved compilation problems: &#xa;	The local variable abs_num1 may not have been initialized&#xa;	The local variable abs_num2 may not have been initialized&#xa;	The local variable abs_num1 may not have been initialized&#xa;	The local variable abs_num2 may not have been initialized&#xa;&#xa;	at org.example.Calculator.lcm(Calculator.java:194)&#xa;	at org.example.Calculator.run(Calculator.java:253)&#xa;	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)&#xa;	at org.example.CalculatorTest.lcmWithOneNumberIsZero(CalculatorTest.java:474)&#xa;	at LCM With One Number Is Zero.run(LCM With One Number Is Zero:30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[21-09-2024T18:59:07 - [TEST_CASE][ERROR] - Test Cases/Least Common Multiple/LCM With One Number Is Zero: Test Cases/Least Common Multiple/LCM With One Number Is Zero FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmWithOneNumberIsZero(CalculatorTest.java:474)
+	at LCM With One Number Is Zero.run(LCM With One Number Is Zero:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T18:59:07 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T18:59:07 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T18:59:07 - [TEST_STEP][ERROR] - try: Test Cases/Least Common Multiple/LCM With One Number Is Zero FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmWithOneNumberIsZero(CalculatorTest.java:474)
+	at LCM With One Number Is Zero.run(LCM With One Number Is Zero:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T18:59:07 - [TEST_STEP][ERROR] - calculatorTest.lcmWithOneNumberIsZero(): Test Cases/Least Common Multiple/LCM With One Number Is Zero FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmWithOneNumberIsZero(CalculatorTest.java:474)
+	at LCM With One Number Is Zero.run(LCM With One Number Is Zero:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T18:59:07 - [MESSAGE][ERROR] - Test Cases/Least Common Multiple/LCM With One Number Is Zero FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmWithOneNumberIsZero(CalculatorTest.java:474)
+	at LCM With One Number Is Zero.run(LCM With One Number Is Zero:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[21-09-2024T18:59:07 - [TEST_CASE][ERROR] - Test Cases/Least Common Multiple/LCM With One Number Is Zero: Test Cases/Least Common Multiple/LCM With One Number Is Zero FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmWithOneNumberIsZero(CalculatorTest.java:474)
+	at LCM With One Number Is Zero.run(LCM With One Number Is Zero:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-09-2024T18:59:06 - [TEST_SUITE][ERROR] - Least Common Multiple: Test Cases/Least Common Multiple/LCM Invalid Input FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmInvalidInput(CalculatorTest.java:497)
+	at LCM Invalid Input.run(LCM Invalid Input:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[21-09-2024T18:59:06 - [TEST_SUITE][ERROR] - Least Common Multiple: Test Cases/Least Common Multiple/LCM Invalid Input FAILED.
+Reason:
+java.lang.Error: Unresolved compilation problems: 
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+	The local variable abs_num1 may not have been initialized
+	The local variable abs_num2 may not have been initialized
+
+	at org.example.Calculator.lcm(Calculator.java:194)
+	at org.example.Calculator.run(Calculator.java:253)
+	at org.example.CalculatorTest.initCalculator(CalculatorTest.java:32)
+	at org.example.CalculatorTest.lcmInvalidInput(CalculatorTest.java:497)
+	at LCM Invalid Input.run(LCM Invalid Input:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726919941149.run(TempTestSuite1726919941149.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>
