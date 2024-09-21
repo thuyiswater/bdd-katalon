@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Fibonacci Of One</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e5331228-fd8b-43c1-b808-93a9bd5c3de1</testCaseGuid>
+</TestCaseEntity>
