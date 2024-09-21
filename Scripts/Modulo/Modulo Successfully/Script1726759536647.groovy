@@ -20,12 +20,12 @@ import org.openqa.selenium.Keys as Keys
 import org.example.CalculatorTest
 
 CalculatorTest calculatorTest = new CalculatorTest();
+calculatorTest.setUp();
 
 try {
-	calculatorTest.setUp();
 	calculatorTest.moduloPass();
 	println("Test Passed");
-	calculatorTest.tearDown();
 } catch (Exception e) {
 	println("Test failed: " + e.getMessage())
 }
+calculatorTest.tearDown();
