@@ -15,14 +15,14 @@
       <guid>b2ac4297-00bb-4ec9-815a-254e840b488b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Addition With Two Negative</testCaseId>
+      <testCaseId>Test Cases/Addition/Addition With Two Negative</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7eed0ce1-fd39-4567-85f4-3c9925353f84</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AdditionWithTwoPositive</testCaseId>
+      <testCaseId>Test Cases/Addition/AdditionWithTwoPositive</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

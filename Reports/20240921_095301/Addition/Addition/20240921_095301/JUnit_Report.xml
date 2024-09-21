@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Addition" time="0.669" tests="2" failures="0" errors="0">
+   <testsuite name="Addition" tests="2" failures="0" errors="0" time="0.669" skipped="0" timestamp="21-09-2024T09:53:07" hostname="Trung Le - DESKTOP-FURDURG" id="Test Suites/Addition/Addition">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\git\\bdd-katalon\\Reports\\20240921_095301\\Addition\\Addition\\20240921_095301"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\git\\bdd-katalon\\Reports\\20240921_095301\\Addition\\Addition\\20240921_095301\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Trung Le - DESKTOP-FURDURG"/>
+         <property name="hostAddress" value="192.168.50.56"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+      </properties>
+      <testcase name="Test Cases/Addition With Two Negative" time="0.387" classname="Test Cases/Addition With Two Negative" status="PASSED">
+         <system-out><![CDATA[21-09-2024T09:53:07 - [TEST_CASE][PASSED] - Test Cases/Addition With Two Negative: Test Cases/Addition With Two Negative
+
+21-09-2024T09:53:08 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T09:53:08 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T09:53:08 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T09:53:08 - [TEST_STEP][PASSED] - calculatorTest.testTwoNegativeNumAddition(): null
+
+21-09-2024T09:53:08 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T09:53:08 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AdditionWithTwoPositive" time="0.111" classname="Test Cases/AdditionWithTwoPositive" status="PASSED">
+         <system-out><![CDATA[21-09-2024T09:53:08 - [TEST_CASE][PASSED] - Test Cases/AdditionWithTwoPositive: Test Cases/AdditionWithTwoPositive
+
+21-09-2024T09:53:08 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T09:53:08 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T09:53:08 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T09:53:08 - [TEST_STEP][PASSED] - calculatorTest.testTwoPositiveNumAddition(): null
+
+21-09-2024T09:53:08 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T09:53:08 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-09-2024T09:53:07 - [TEST_SUITE][PASSED] - Addition: Test Cases/AdditionWithTwoPositive]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

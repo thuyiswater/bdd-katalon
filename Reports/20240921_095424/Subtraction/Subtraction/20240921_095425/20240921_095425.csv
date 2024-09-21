@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Subtraction,,,,21-09-2024 09:54:31,21-09-2024 09:54:31,0.428s,PASSED
+,,,,,,,
+Test Cases/Subtraction A Smaller Num From Larger Num,,,,21-09-2024 09:54:31,21-09-2024 09:54:31,0.259s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 09:54:31,21-09-2024 09:54:31,0.008s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 09:54:31,21-09-2024 09:54:31,0.001s,PASSED
+try,,,,21-09-2024 09:54:31,21-09-2024 09:54:31,0.023s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 09:54:31,21-09-2024 09:54:31,0.001s,PASSED
+,,,,,,,
+Test Cases/Subtraction of Two Positive Num,,,,21-09-2024 09:54:31,21-09-2024 09:54:31,0.070s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 09:54:31,21-09-2024 09:54:31,0.002s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 09:54:31,21-09-2024 09:54:31,0.002s,PASSED
+try,,,,21-09-2024 09:54:31,21-09-2024 09:54:31,0.005s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 09:54:31,21-09-2024 09:54:31,0.001s,PASSED

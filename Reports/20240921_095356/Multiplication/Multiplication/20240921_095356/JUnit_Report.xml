@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Multiplication" time="0.523" tests="4" failures="0" errors="0">
+   <testsuite name="Multiplication" tests="4" failures="0" errors="0" time="0.523" skipped="0" timestamp="21-09-2024T09:54:01" hostname="Trung Le - DESKTOP-FURDURG" id="Test Suites/Multiplication/Multiplication">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\git\\bdd-katalon\\Reports\\20240921_095356\\Multiplication\\Multiplication\\20240921_095356"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\git\\bdd-katalon\\Reports\\20240921_095356\\Multiplication\\Multiplication\\20240921_095356\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Trung Le - DESKTOP-FURDURG"/>
+         <property name="hostAddress" value="192.168.50.56"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+      </properties>
+      <testcase name="Test Cases/Multiplication With Zero" time="0.244" classname="Test Cases/Multiplication With Zero" status="PASSED">
+         <system-out><![CDATA[21-09-2024T09:54:01 - [TEST_CASE][PASSED] - Test Cases/Multiplication With Zero: Test Cases/Multiplication With Zero
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - calculatorTest.testMultiplicationWithZero(): null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MultiplicationWithPositiveAndNegative" time="0.066" classname="Test Cases/MultiplicationWithPositiveAndNegative" status="PASSED">
+         <system-out><![CDATA[21-09-2024T09:54:02 - [TEST_CASE][PASSED] - Test Cases/MultiplicationWithPositiveAndNegative: Test Cases/MultiplicationWithPositiveAndNegative
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - calculatorTest.testMultiplicationWithPositiveAndNegative(): null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MultiplicationWithTwoNegative" time="0.064" classname="Test Cases/MultiplicationWithTwoNegative" status="PASSED">
+         <system-out><![CDATA[21-09-2024T09:54:02 - [TEST_CASE][PASSED] - Test Cases/MultiplicationWithTwoNegative: Test Cases/MultiplicationWithTwoNegative
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - calculatorTest.testMultiplicationWithTwoNegative(): null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - println("Test passed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MultiplicationWithTwoPositive" time="0.05" classname="Test Cases/MultiplicationWithTwoPositive" status="PASSED">
+         <system-out><![CDATA[21-09-2024T09:54:02 - [TEST_CASE][PASSED] - Test Cases/MultiplicationWithTwoPositive: Test Cases/MultiplicationWithTwoPositive
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - calculatorTest.testMultiplicationWithTwoPositive(): null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T09:54:02 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-09-2024T09:54:01 - [TEST_SUITE][PASSED] - Multiplication: Test Cases/MultiplicationWithTwoPositive]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Subtraction" time="0.428" tests="2" failures="0" errors="0">
+   <testsuite name="Subtraction" tests="2" failures="0" errors="0" time="0.428" skipped="0" timestamp="21-09-2024T09:54:31" hostname="Trung Le - DESKTOP-FURDURG" id="Test Suites/Subtraction/Subtraction">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\git\\bdd-katalon\\Reports\\20240921_095424\\Subtraction\\Subtraction\\20240921_095425"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\git\\bdd-katalon\\Reports\\20240921_095424\\Subtraction\\Subtraction\\20240921_095425\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Trung Le - DESKTOP-FURDURG"/>
+         <property name="hostAddress" value="192.168.50.56"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+      </properties>
+      <testcase name="Test Cases/Subtraction A Smaller Num From Larger Num" time="0.259" classname="Test Cases/Subtraction A Smaller Num From Larger Num" status="PASSED">
+         <system-out><![CDATA[21-09-2024T09:54:31 - [TEST_CASE][PASSED] - Test Cases/Subtraction A Smaller Num From Larger Num: Test Cases/Subtraction A Smaller Num From Larger Num
+
+21-09-2024T09:54:31 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T09:54:31 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T09:54:31 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T09:54:31 - [TEST_STEP][PASSED] - calculatorTest.testSubtractionASmallerNumberFromALargerNumber(): null
+
+21-09-2024T09:54:31 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T09:54:31 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subtraction of Two Positive Num" time="0.07" classname="Test Cases/Subtraction of Two Positive Num" status="PASSED">
+         <system-out><![CDATA[21-09-2024T09:54:31 - [TEST_CASE][PASSED] - Test Cases/Subtraction of Two Positive Num: Test Cases/Subtraction of Two Positive Num
+
+21-09-2024T09:54:31 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T09:54:31 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T09:54:31 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T09:54:31 - [TEST_STEP][PASSED] - calculatorTest.testTwoPositiveNumSubtraction(): null
+
+21-09-2024T09:54:31 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T09:54:31 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-09-2024T09:54:31 - [TEST_SUITE][PASSED] - Subtraction: Test Cases/Subtraction of Two Positive Num]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

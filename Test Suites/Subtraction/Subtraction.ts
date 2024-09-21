@@ -15,14 +15,14 @@
       <guid>7d1a0e40-d053-40ff-9c4f-3cfdf7b9cd27</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Subtraction A Smaller Num From Larger Num</testCaseId>
+      <testCaseId>Test Cases/Substraction/Subtraction A Smaller Num From Larger Num</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>244993ab-1f35-4afb-994e-e8dd322c49e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Subtraction of Two Positive Num</testCaseId>
+      <testCaseId>Test Cases/Substraction/Subtraction of Two Positive Num</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

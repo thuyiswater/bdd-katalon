@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Addition,,,,21-09-2024 09:53:09,21-09-2024 09:53:10,0.425s,PASSED
+,,,,,,,
+Test Cases/Addition With Two Negative,,,,21-09-2024 09:53:10,21-09-2024 09:53:10,0.272s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 09:53:10,21-09-2024 09:53:10,0.008s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 09:53:10,21-09-2024 09:53:10,0.003s,PASSED
+try,,,,21-09-2024 09:53:10,21-09-2024 09:53:10,0.019s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 09:53:10,21-09-2024 09:53:10,0.001s,PASSED
+,,,,,,,
+Test Cases/AdditionWithTwoPositive,,,,21-09-2024 09:53:10,21-09-2024 09:53:10,0.059s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 09:53:10,21-09-2024 09:53:10,0.002s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 09:53:10,21-09-2024 09:53:10,0.001s,PASSED
+try,,,,21-09-2024 09:53:10,21-09-2024 09:53:10,0.005s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 09:53:10,21-09-2024 09:53:10,0.000s,PASSED

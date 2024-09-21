@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Multiplication,,,,21-09-2024 09:54:01,21-09-2024 09:54:02,0.523s,PASSED
+,,,,,,,
+Test Cases/Multiplication With Zero,,,,21-09-2024 09:54:01,21-09-2024 09:54:02,0.244s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 09:54:02,21-09-2024 09:54:02,0.010s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 09:54:02,21-09-2024 09:54:02,0.004s,PASSED
+try,,,,21-09-2024 09:54:02,21-09-2024 09:54:02,0.024s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 09:54:02,21-09-2024 09:54:02,0.001s,PASSED
+,,,,,,,
+Test Cases/MultiplicationWithPositiveAndNegative,,,,21-09-2024 09:54:02,21-09-2024 09:54:02,0.066s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 09:54:02,21-09-2024 09:54:02,0.003s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 09:54:02,21-09-2024 09:54:02,0.001s,PASSED
+try,,,,21-09-2024 09:54:02,21-09-2024 09:54:02,0.007s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 09:54:02,21-09-2024 09:54:02,0.001s,PASSED
+,,,,,,,
+Test Cases/MultiplicationWithTwoNegative,,,,21-09-2024 09:54:02,21-09-2024 09:54:02,0.064s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 09:54:02,21-09-2024 09:54:02,0.002s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 09:54:02,21-09-2024 09:54:02,0.001s,PASSED
+try,,,,21-09-2024 09:54:02,21-09-2024 09:54:02,0.008s,PASSED
+,,,,,,,
+Test Cases/MultiplicationWithTwoPositive,,,,21-09-2024 09:54:02,21-09-2024 09:54:02,0.050s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 09:54:02,21-09-2024 09:54:02,0.001s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 09:54:02,21-09-2024 09:54:02,0.000s,PASSED
+try,,,,21-09-2024 09:54:02,21-09-2024 09:54:02,0.005s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 09:54:02,21-09-2024 09:54:02,0.001s,PASSED

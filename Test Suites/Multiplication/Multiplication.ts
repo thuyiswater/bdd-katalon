@@ -15,28 +15,28 @@
       <guid>98071ae8-f355-4f0e-920b-82cd115b8bae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Multiplication With Zero</testCaseId>
+      <testCaseId>Test Cases/Multiplication/Multiplication With Zero</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>45e0c41d-44e0-4c69-a2ee-235bb6709653</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MultiplicationWithPositiveAndNegative</testCaseId>
+      <testCaseId>Test Cases/Multiplication/MultiplicationWithPositiveAndNegative</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>4953c8b9-4bf4-4204-9960-1c946036928c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MultiplicationWithTwoNegative</testCaseId>
+      <testCaseId>Test Cases/Multiplication/MultiplicationWithTwoNegative</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>d05d5698-06ab-4d06-be4e-a1e39b58eb8e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MultiplicationWithTwoPositive</testCaseId>
+      <testCaseId>Test Cases/Multiplication/MultiplicationWithTwoPositive</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
