@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GCD With One Number Is Zero</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>708b1329-03fd-4610-a75f-d2a26d9113a7</testCaseGuid>
+</TestCaseEntity>

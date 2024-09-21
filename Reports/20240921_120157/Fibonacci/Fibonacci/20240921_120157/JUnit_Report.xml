@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Fibonacci" time="0.619" tests="5" failures="1" errors="0">
+   <testsuite name="Fibonacci" tests="5" failures="1" errors="0" time="0.619" skipped="0" timestamp="21-09-2024T12:02:03" hostname="Trung Le - DESKTOP-FURDURG" id="Test Suites/Fibonacci/Fibonacci">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ADMIN\\git\\bdd-katalon\\Reports\\20240921_120157\\Fibonacci\\Fibonacci\\20240921_120157"/>
+         <property name="logFiles" value="C:\\Users\\ADMIN\\git\\bdd-katalon\\Reports\\20240921_120157\\Fibonacci\\Fibonacci\\20240921_120157\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Trung Le - DESKTOP-FURDURG"/>
+         <property name="hostAddress" value="192.168.50.56"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+      </properties>
+      <testcase name="Test Cases/Fibonacci/Fibonacci Invalid Input" time="0.212" classname="Test Cases/Fibonacci/Fibonacci Invalid Input" status="PASSED">
+         <system-out><![CDATA[21-09-2024T12:02:03 - [TEST_CASE][PASSED] - Test Cases/Fibonacci/Fibonacci Invalid Input: Test Cases/Fibonacci/Fibonacci Invalid Input
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - calculatorTest.fibonacciInvalidInput(): null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fibonacci/Fibonacci Negative Number" time="0.061" classname="Test Cases/Fibonacci/Fibonacci Negative Number" status="PASSED">
+         <system-out><![CDATA[21-09-2024T12:02:03 - [TEST_CASE][PASSED] - Test Cases/Fibonacci/Fibonacci Negative Number: Test Cases/Fibonacci/Fibonacci Negative Number
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - calculatorTest.fibonacciNegativeNumber(): null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fibonacci/Fibonacci Of One" time="0.052" classname="Test Cases/Fibonacci/Fibonacci Of One" status="PASSED">
+         <system-out><![CDATA[21-09-2024T12:02:03 - [TEST_CASE][PASSED] - Test Cases/Fibonacci/Fibonacci Of One: Test Cases/Fibonacci/Fibonacci Of One
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - calculatorTest.fibonacciOfOne(): null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fibonacci/Fibonacci Of Zero" time="0.015" classname="Test Cases/Fibonacci/Fibonacci Of Zero" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Fibonacci/Fibonacci Of Zero FAILED.&#xa;Reason:&#xa;java.lang.AssertionError&#xa;	at org.junit.Assert.fail(Assert.java:87)&#xa;	at org.junit.Assert.assertTrue(Assert.java:42)&#xa;	at org.junit.Assert.assertTrue(Assert.java:53)&#xa;	at org.example.CalculatorTest.fibonacciOfZero(CalculatorTest.java:524)&#xa;	at Fibonacci Of Zero.run(Fibonacci Of Zero:30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1726894917423.run(TempTestSuite1726894917423.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[21-09-2024T12:02:03 - [TEST_CASE][FAILED] - Test Cases/Fibonacci/Fibonacci Of Zero: Test Cases/Fibonacci/Fibonacci Of Zero FAILED.
+Reason:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.example.CalculatorTest.fibonacciOfZero(CalculatorTest.java:524)
+	at Fibonacci Of Zero.run(Fibonacci Of Zero:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726894917423.run(TempTestSuite1726894917423.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T12:02:03 - [TEST_STEP][FAILED] - try: Test Cases/Fibonacci/Fibonacci Of Zero FAILED.
+Reason:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.example.CalculatorTest.fibonacciOfZero(CalculatorTest.java:524)
+	at Fibonacci Of Zero.run(Fibonacci Of Zero:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726894917423.run(TempTestSuite1726894917423.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T12:02:03 - [TEST_STEP][FAILED] - calculatorTest.fibonacciOfZero(): Test Cases/Fibonacci/Fibonacci Of Zero FAILED.
+Reason:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.example.CalculatorTest.fibonacciOfZero(CalculatorTest.java:524)
+	at Fibonacci Of Zero.run(Fibonacci Of Zero:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726894917423.run(TempTestSuite1726894917423.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+21-09-2024T12:02:03 - [MESSAGE][FAILED] - Test Cases/Fibonacci/Fibonacci Of Zero FAILED.
+Reason:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.example.CalculatorTest.fibonacciOfZero(CalculatorTest.java:524)
+	at Fibonacci Of Zero.run(Fibonacci Of Zero:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726894917423.run(TempTestSuite1726894917423.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[21-09-2024T12:02:03 - [TEST_CASE][FAILED] - Test Cases/Fibonacci/Fibonacci Of Zero: Test Cases/Fibonacci/Fibonacci Of Zero FAILED.
+Reason:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.example.CalculatorTest.fibonacciOfZero(CalculatorTest.java:524)
+	at Fibonacci Of Zero.run(Fibonacci Of Zero:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726894917423.run(TempTestSuite1726894917423.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fibonacci/Fibonacci Positive Number" time="0.064" classname="Test Cases/Fibonacci/Fibonacci Positive Number" status="PASSED">
+         <system-out><![CDATA[21-09-2024T12:02:03 - [TEST_CASE][PASSED] - Test Cases/Fibonacci/Fibonacci Positive Number: Test Cases/Fibonacci/Fibonacci Positive Number
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - calculatorTest = new org.example.CalculatorTest(): null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - calculatorTest.setUp(): null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - try: null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - calculatorTest.fibonacciPositiveNumber(): null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - println("Test passed"): null
+
+21-09-2024T12:02:03 - [TEST_STEP][PASSED] - calculatorTest.tearDown(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-09-2024T12:02:03 - [TEST_SUITE][FAILED] - Fibonacci: Test Cases/Fibonacci/Fibonacci Of Zero FAILED.
+Reason:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.example.CalculatorTest.fibonacciOfZero(CalculatorTest.java:524)
+	at Fibonacci Of Zero.run(Fibonacci Of Zero:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726894917423.run(TempTestSuite1726894917423.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[21-09-2024T12:02:03 - [TEST_SUITE][FAILED] - Fibonacci: Test Cases/Fibonacci/Fibonacci Of Zero FAILED.
+Reason:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.example.CalculatorTest.fibonacciOfZero(CalculatorTest.java:524)
+	at Fibonacci Of Zero.run(Fibonacci Of Zero:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726894917423.run(TempTestSuite1726894917423.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

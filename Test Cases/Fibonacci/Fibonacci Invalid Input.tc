@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Fibonacci Invalid Input</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>07718ef7-3d16-43eb-b5e4-15ee8ff2ef78</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Greatest Common Divisor,,,,21-09-2024 11:55:47,21-09-2024 11:55:48,0.852s,FAILED
+,,,,,,,
+Test Cases/Greatest Common Divisor/GCD Invalid Input,,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.261s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.010s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.002s,PASSED
+try,,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.026s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.002s,PASSED
+,,,,,,,
+Test Cases/Greatest Common Divisor/GCD One Positive And One Negative Number,,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.021s,FAILED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.001s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.002s,PASSED
+try,,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.003s,FAILED
+,,,,,,,
+Test Cases/Greatest Common Divisor/GCD Two Negative Numbers,,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.014s,FAILED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.000s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.001s,PASSED
+try,,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.002s,FAILED
+,,,,,,,
+Test Cases/Greatest Common Divisor/GCD Two Positive Numbers,,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.062s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.002s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.002s,PASSED
+try,,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.005s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.000s,PASSED
+,,,,,,,
+Test Cases/Greatest Common Divisor/GCD Two Prime Numbers,,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.053s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.001s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.002s,PASSED
+try,,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.005s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.000s,PASSED
+,,,,,,,
+Test Cases/Greatest Common Divisor/GCD With One Number Is Zero,,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.053s,PASSED
+calculatorTest = new org.example.CalculatorTest(),,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.001s,PASSED
+calculatorTest.setUp(),,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.001s,PASSED
+try,,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.004s,PASSED
+calculatorTest.tearDown(),,,,21-09-2024 11:55:48,21-09-2024 11:55:48,0.000s,PASSED

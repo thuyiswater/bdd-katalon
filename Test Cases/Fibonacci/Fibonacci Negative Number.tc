@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Fibonacci Negative Number</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>30ab1935-981e-4d71-9ed2-4ee4c4933392</testCaseGuid>
+</TestCaseEntity>
